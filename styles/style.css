@@ -1,3 +1,11 @@
 .dark-image {
     filter: brightness(50%);
 }
+
+@media only screen and (min-width:577px) and (max-width:766px) {
+
+    .samll-device {
+        display: flex;
+        flex-direction: column;
+    }
+}
